@@ -7,3 +7,7 @@ Microserviço para processar as partituras (do projeto: https://github.com/Emily
 `npm run build-container` - Cria o container responsável por converter o arquivo para mxl
 
 `npm run dev` - Roda a aplicação (está configurado para a porta 4000)
+
+> Siga a ordem dos comandos
+
+O processamento demora entre 30 a 50 minutos
