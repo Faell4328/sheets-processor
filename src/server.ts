@@ -5,6 +5,11 @@ import { resolve } from 'path';
 
 import { router } from './router';
 
+import dotenv from 'dotenv';
+
+// Carregar as variáveis de ambiente do arquivo .env
+dotenv.config();
+
 const app = express();
 const server = http.createServer(app);
 
